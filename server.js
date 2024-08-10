@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.json({ message: "HelloWorld!!!!" });
+    res.json({ "HelloWorld!!!!" });
 });
 
 app.listen(8081, () => {
